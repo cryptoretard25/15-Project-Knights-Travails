@@ -1,0 +1,28 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: 240px;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Установка стилей для ячеек доски */
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+/* Установка стилей для черных ячеек доски */
+.cell.black {
+  background-color: #b58863;
+}
+
+/* Установка стилей для белых ячеек доски */
+.cell.white {
+  background-color: #f0d9b5;
+}
